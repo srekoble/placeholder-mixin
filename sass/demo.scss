@@ -1,0 +1,75 @@
+@import "compass/reset";
+@import "placeholder-mixin";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  @include placeholder(100%, auto, header);
+  overflow: hidden;
+}
+
+
+.menu {
+  float: right;
+  margin-top: 23px;
+
+  > li {
+    @include placeholder(100px, 50px, menu options);
+    display: inline-block;
+  }
+}
+
+.logo {
+  @include placeholder(100px, 100px, logo);
+  float: left;
+}
+
+.top-main-section {
+  @include placeholder(100%, 250px, hero image);
+  margin-top: 20px;
+}
+
+.controls {
+  overflow: hidden;
+  margin-top: 20px;
+
+  > li {
+    @include placeholder(25%, 50px, controls);
+    float: left;
+  }
+}
+
+.products {
+  overflow: hidden;
+
+  > li {
+    @include placeholder(25%, 150px, products);
+    float: left;
+  }
+}
+
+main {
+  @include placeholder(75%, auto);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+aside {
+  @include placeholder(23%, 600px, aside);
+  margin-top: 20px;
+  float: right;
+}
+
+footer {
+  @include placeholder(100%, 250px, footer);
+  margin-top: 20px;
+  clear: both;
+}

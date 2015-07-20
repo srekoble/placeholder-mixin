@@ -1,0 +1,30 @@
+@mixin placeholder($width, $height, $name: null) {
+  width: $width;
+  height: $height;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+
+  &:before {
+
+    @if $name != null {
+      content: "#{$name}";
+    }
+
+    @else {
+      content: "#{$width} x #{$height}";
+    }
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font: 16px/20px verdana;
+
+    // Fallback for < = ie8
+
+    // margin-left: $width / 2;
+    // margin-top: $height / 2;
+  }
+}

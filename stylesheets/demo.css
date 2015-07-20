@@ -1,0 +1,273 @@
+/* line 5, ../../../../../.gem/ruby/1.9.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.gem/ruby/1.9.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.gem/ruby/1.9.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.gem/ruby/1.9.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.gem/ruby/1.9.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.gem/ruby/1.9.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.gem/ruby/1.9.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.gem/ruby/1.9.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.gem/ruby/1.9.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/demo.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/demo.scss */
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 13, ../sass/demo.scss */
+header {
+  width: 100%;
+  height: auto;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+  overflow: hidden;
+}
+/* line 8, ../sass/placeholder-mixin.scss */
+header:before {
+  content: "header";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font: 16px/20px verdana;
+}
+
+/* line 19, ../sass/demo.scss */
+.menu {
+  float: right;
+  margin-top: 23px;
+}
+/* line 23, ../sass/demo.scss */
+.menu > li {
+  width: 100px;
+  height: 50px;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+  display: inline-block;
+}
+/* line 8, ../sass/placeholder-mixin.scss */
+.menu > li:before {
+  content: "menu options";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font: 16px/20px verdana;
+}
+
+/* line 29, ../sass/demo.scss */
+.logo {
+  width: 100px;
+  height: 100px;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+  float: left;
+}
+/* line 8, ../sass/placeholder-mixin.scss */
+.logo:before {
+  content: "logo";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font: 16px/20px verdana;
+}
+
+/* line 34, ../sass/demo.scss */
+.top-main-section {
+  width: 100%;
+  height: 250px;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+  margin-top: 20px;
+}
+/* line 8, ../sass/placeholder-mixin.scss */
+.top-main-section:before {
+  content: "hero image";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font: 16px/20px verdana;
+}
+
+/* line 39, ../sass/demo.scss */
+.controls {
+  overflow: hidden;
+  margin-top: 20px;
+}
+/* line 43, ../sass/demo.scss */
+.controls > li {
+  width: 25%;
+  height: 50px;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+  float: left;
+}
+/* line 8, ../sass/placeholder-mixin.scss */
+.controls > li:before {
+  content: "controls";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font: 16px/20px verdana;
+}
+
+/* line 49, ../sass/demo.scss */
+.products {
+  overflow: hidden;
+}
+/* line 52, ../sass/demo.scss */
+.products > li {
+  width: 25%;
+  height: 150px;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+  float: left;
+}
+/* line 8, ../sass/placeholder-mixin.scss */
+.products > li:before {
+  content: "products";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font: 16px/20px verdana;
+}
+
+/* line 58, ../sass/demo.scss */
+main {
+  width: 75%;
+  height: auto;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* line 8, ../sass/placeholder-mixin.scss */
+main:before {
+  content: "75% x auto";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font: 16px/20px verdana;
+}
+
+/* line 65, ../sass/demo.scss */
+aside {
+  width: 23%;
+  height: 600px;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+  margin-top: 20px;
+  float: right;
+}
+/* line 8, ../sass/placeholder-mixin.scss */
+aside:before {
+  content: "aside";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font: 16px/20px verdana;
+}
+
+/* line 71, ../sass/demo.scss */
+footer {
+  width: 100%;
+  height: 250px;
+  background: #eaeaea;
+  border: 5px solid #ccc;
+  position: relative;
+  margin-top: 20px;
+  clear: both;
+}
+/* line 8, ../sass/placeholder-mixin.scss */
+footer:before {
+  content: "footer";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font: 16px/20px verdana;
+}
