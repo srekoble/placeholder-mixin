@@ -1,8 +1,10 @@
+$background-color: #55cd9f;
+
 @mixin placeholder($width, $height, $name: null) {
   width: $width;
   height: $height;
-  background: #d4d4d4;
-  border: 5px solid #ccc;
+  background: $background-color;
+  border: 2px solid lighten($background-color, 30);
   position: relative;
 
   &:before {
@@ -16,15 +18,10 @@
     }
 
     position: absolute;
-    font-size: 35px;
+    font: 16px/20px verdana;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-
-    // Fallback for < = ie8
-
-    // margin-left: $width / 2;
-    // margin-top: $height / 2;
   }
 }
