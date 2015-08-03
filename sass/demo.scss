@@ -8,11 +8,14 @@
 body {
   max-width: 1000px;
   margin: 0 auto;
+  background: #1d293b;
+  font-family: verdana;
 }
 
 header {
   @include placeholder(100%, auto, header);
   overflow: hidden;
+  padding: 20px;
 }
 
 
@@ -57,13 +60,13 @@ header {
 
 main {
   @include placeholder(75%, auto);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
   float: left;
+  padding: 20px;
 }
 
 aside {
-  @include placeholder(23%, 600px, aside);
+  @include placeholder(23%, 644px, aside);
   margin-top: 20px;
   float: right;
 }

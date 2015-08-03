@@ -72,202 +72,205 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   max-width: 1000px;
   margin: 0 auto;
+  background: #1d293b;
+  font-family: verdana;
 }
 
-/* line 13, ../sass/demo.scss */
+/* line 15, ../sass/demo.scss */
 header {
   width: 100%;
   height: auto;
-  background: #eaeaea;
-  border: 5px solid #ccc;
+  background: #55cd9f;
+  border: 2px solid #cbf0e2;
   position: relative;
   overflow: hidden;
+  padding: 20px;
 }
-/* line 8, ../sass/placeholder-mixin.scss */
+/* line 10, ../sass/placeholder-mixin.scss */
 header:before {
   content: "header";
   position: absolute;
+  font: 16px/20px verdana;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: 16px/20px verdana;
 }
 
-/* line 19, ../sass/demo.scss */
+/* line 22, ../sass/demo.scss */
 .menu {
   float: right;
   margin-top: 23px;
 }
-/* line 23, ../sass/demo.scss */
+/* line 26, ../sass/demo.scss */
 .menu > li {
   width: 100px;
   height: 50px;
-  background: #eaeaea;
-  border: 5px solid #ccc;
+  background: #55cd9f;
+  border: 2px solid #cbf0e2;
   position: relative;
   display: inline-block;
 }
-/* line 8, ../sass/placeholder-mixin.scss */
+/* line 10, ../sass/placeholder-mixin.scss */
 .menu > li:before {
   content: "menu options";
   position: absolute;
+  font: 16px/20px verdana;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: 16px/20px verdana;
 }
 
-/* line 29, ../sass/demo.scss */
+/* line 32, ../sass/demo.scss */
 .logo {
   width: 100px;
   height: 100px;
-  background: #eaeaea;
-  border: 5px solid #ccc;
+  background: #55cd9f;
+  border: 2px solid #cbf0e2;
   position: relative;
   float: left;
 }
-/* line 8, ../sass/placeholder-mixin.scss */
+/* line 10, ../sass/placeholder-mixin.scss */
 .logo:before {
   content: "logo";
   position: absolute;
+  font: 16px/20px verdana;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: 16px/20px verdana;
 }
 
-/* line 34, ../sass/demo.scss */
+/* line 37, ../sass/demo.scss */
 .top-main-section {
   width: 100%;
   height: 250px;
-  background: #eaeaea;
-  border: 5px solid #ccc;
+  background: #55cd9f;
+  border: 2px solid #cbf0e2;
   position: relative;
   margin-top: 20px;
 }
-/* line 8, ../sass/placeholder-mixin.scss */
+/* line 10, ../sass/placeholder-mixin.scss */
 .top-main-section:before {
   content: "hero image";
   position: absolute;
+  font: 16px/20px verdana;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: 16px/20px verdana;
 }
 
-/* line 39, ../sass/demo.scss */
+/* line 42, ../sass/demo.scss */
 .controls {
   overflow: hidden;
   margin-top: 20px;
 }
-/* line 43, ../sass/demo.scss */
+/* line 46, ../sass/demo.scss */
 .controls > li {
   width: 25%;
   height: 50px;
-  background: #eaeaea;
-  border: 5px solid #ccc;
+  background: #55cd9f;
+  border: 2px solid #cbf0e2;
   position: relative;
   float: left;
 }
-/* line 8, ../sass/placeholder-mixin.scss */
+/* line 10, ../sass/placeholder-mixin.scss */
 .controls > li:before {
   content: "controls";
   position: absolute;
+  font: 16px/20px verdana;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: 16px/20px verdana;
 }
 
-/* line 49, ../sass/demo.scss */
+/* line 52, ../sass/demo.scss */
 .products {
   overflow: hidden;
 }
-/* line 52, ../sass/demo.scss */
+/* line 55, ../sass/demo.scss */
 .products > li {
   width: 25%;
   height: 150px;
-  background: #eaeaea;
-  border: 5px solid #ccc;
+  background: #55cd9f;
+  border: 2px solid #cbf0e2;
   position: relative;
   float: left;
 }
-/* line 8, ../sass/placeholder-mixin.scss */
+/* line 10, ../sass/placeholder-mixin.scss */
 .products > li:before {
   content: "products";
   position: absolute;
+  font: 16px/20px verdana;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: 16px/20px verdana;
 }
 
-/* line 58, ../sass/demo.scss */
+/* line 61, ../sass/demo.scss */
 main {
   width: 75%;
   height: auto;
-  background: #eaeaea;
-  border: 5px solid #ccc;
+  background: #55cd9f;
+  border: 2px solid #cbf0e2;
   position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
   float: left;
+  padding: 20px;
 }
-/* line 8, ../sass/placeholder-mixin.scss */
+/* line 10, ../sass/placeholder-mixin.scss */
 main:before {
   content: "75% x auto";
   position: absolute;
+  font: 16px/20px verdana;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: 16px/20px verdana;
 }
 
-/* line 65, ../sass/demo.scss */
+/* line 68, ../sass/demo.scss */
 aside {
   width: 23%;
-  height: 600px;
-  background: #eaeaea;
-  border: 5px solid #ccc;
+  height: 644px;
+  background: #55cd9f;
+  border: 2px solid #cbf0e2;
   position: relative;
   margin-top: 20px;
   float: right;
 }
-/* line 8, ../sass/placeholder-mixin.scss */
+/* line 10, ../sass/placeholder-mixin.scss */
 aside:before {
   content: "aside";
   position: absolute;
+  font: 16px/20px verdana;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: 16px/20px verdana;
 }
 
-/* line 71, ../sass/demo.scss */
+/* line 74, ../sass/demo.scss */
 footer {
   width: 100%;
   height: 250px;
-  background: #eaeaea;
-  border: 5px solid #ccc;
+  background: #55cd9f;
+  border: 2px solid #cbf0e2;
   position: relative;
   margin-top: 20px;
   clear: both;
 }
-/* line 8, ../sass/placeholder-mixin.scss */
+/* line 10, ../sass/placeholder-mixin.scss */
 footer:before {
   content: "footer";
   position: absolute;
+  font: 16px/20px verdana;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: 16px/20px verdana;
 }
